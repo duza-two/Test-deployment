@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var exphbs = require('express-handlebars');
+var PORT = process.env.PORT || 8080
 
 var app = express();
 
@@ -40,6 +41,6 @@ app.get('/experience', function(req, res){
 });
 
 //Define the port to run on
-app.listen(8080, function(){
+app.listen(PORT, function(){
     console.log('Server listenting on port 8080...');
 });
