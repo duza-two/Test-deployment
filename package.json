@@ -2,13 +2,12 @@
   "name": "mywebsite",
   "version": "1.0.0",
   "description": "my online resume",
+  "engines": {
+    "node": "6.11.3"
+  },
   "main": "app.js",
   "scripts": {
-    "start": "node app"
-  },
-  "engines": {
-    "node": "6.11.3",
-    "npm": "3.10.10"
+    "start": "node app.js"
   },
   "author": "Duane Smit",
   "license": "ISC",
