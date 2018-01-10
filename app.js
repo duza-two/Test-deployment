@@ -31,6 +31,10 @@ app.get('/projects', function(req, res){
   res.render('projects');
 });
 
+app.get('/academic', function(req, res){
+  res.render('academic');
+});
+
 app.get('/experience', function(req, res){
   res.render('experience');
 });

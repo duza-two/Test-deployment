@@ -4,7 +4,11 @@
   "description": "my online resume",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.11.3",
+    "npm": "3.10.10"
   },
   "author": "Duane Smit",
   "license": "ISC",

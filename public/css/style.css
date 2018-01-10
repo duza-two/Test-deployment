@@ -13,10 +13,6 @@ body {
     overflow: hidden;
 }
 
-.section_1 .container {
-  height: 100%;
-}
-
 /*header styling*/
 header {
     min-height: 70px;
@@ -58,6 +54,15 @@ header a {
     margin-right:5px;
 }
 
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .section_1 {
     min-height: 400px;
     text-align: center;
@@ -66,7 +71,7 @@ header a {
       rgba(51, 51, 51, 0.45),
       rgba(51, 51, 51, 0.45)
     ),
-        url("/images/wallpaper3.jpg") no-repeat -100px -400px;
+        url("/images/wallpaper5.jpeg") no-repeat 0px -1300px;
     color: #ffffff;
   }
 
@@ -106,6 +111,16 @@ header a {
 .section_2 {
     background-color: #35424a;
     color: #ffffff;
+}
+
+.course {
+  background-color: #808080;
+}
+
+.course .box {
+  display: inline-block;
+  float: left;
+  width: 350px;
 }
 
 .boxes h1 {
