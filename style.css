@@ -1,0 +1,145 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+/*Global CSS*/
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+}
+
+/*header styling*/
+header {
+    min-height: 70px;
+    background: #001f3f;
+    color: #ffffff;
+    border-bottom: #e8491d 2px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+}
+
+.nav-bar {
+  text-decoration: none;
+  float: right;
+  margin: 20px 5px 5px 5px;
+}
+
+.nav-bar span {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 5px;
+}
+
+.heading h1{
+    float: left;
+}
+
+.buttons {
+    display: inline;
+    float: right;
+}
+
+.buttons .login {
+    float: left;
+    margin-top: 30px;
+    margin-right:5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section_1 {
+    min-height: 400px;
+    text-align: center;
+    background:
+        linear-gradient(
+      rgba(51, 51, 51, 0.45),
+      rgba(51, 51, 51, 0.45)
+    ),
+        url("/images/wallpaper5.jpeg") no-repeat 0px -1300px;
+    color: #ffffff;
+  }
+
+
+/*Showcase styling*/
+.section_1 p {
+    font-size: 20px;
+}
+
+.showcase {
+  display: inline;
+  width: 400px;
+}
+
+.showcase #para1 {
+  float: left;
+  width: 300px;
+  padding-top: 40px;
+}
+
+.showcase #para2 {
+  float: right;
+  width: 300px;
+  padding-top: 40px;
+}
+
+.showcase img {
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.section_1 h1 {
+    font-size: 35px;
+}
+
+/* languages*/
+.section_2 {
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+.course {
+  background-color: #808080;
+}
+
+.course .box {
+  display: inline-block;
+  float: left;
+  width: 350px;
+}
+
+.boxes h1 {
+    text-align: center;
+
+}
+.boxes .box{
+    float:left;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #001f3f;
+    border-top: #e8491d 2px solid;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
