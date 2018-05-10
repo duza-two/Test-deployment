@@ -1,4 +1,4 @@
-# resume
+# Personal Web Page
 
 This project was to learn and experiment with online deploy with with Heroku.
 
